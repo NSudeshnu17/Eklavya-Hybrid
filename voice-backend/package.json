@@ -1,0 +1,20 @@
+{
+  "name": "voice-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev":"nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "ffi-napi": "^2.5.0",
+    "nodemon": "^3.1.10",
+    "vosk": "^0.3.39",
+    "ws": "^8.18.3"
+  }
+}

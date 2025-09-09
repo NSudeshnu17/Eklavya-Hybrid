@@ -1,0 +1,5 @@
+export const UPDATE_DEMO = "UPDATE_DEMO"
+export const UPDATE_LOGIN = "UPDATE_LOGIN"
+export const UPDATE_NAVBAR =  "UPDATE_NAVBAR"
+export const SLIDER_CHNAGE = "SLIDER_CHNAGE"
+export const SLIDER_INFO = "SLIDER_INFO"
