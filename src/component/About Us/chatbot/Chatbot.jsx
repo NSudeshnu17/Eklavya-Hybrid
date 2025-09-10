@@ -175,12 +175,12 @@ const Chatbot = ({ isChatBotVisible, handleCloseChatBot }) => {
 
         if (parsedResponse.marks) {
           const marks = parsedResponse.marks;
-        //   let scoreIcon = '📊';
-        //   if (marks.includes('Excellent') || marks.includes('5/5')) scoreIcon = '🏆';
-        //   else if (marks.includes('Good') || marks.includes('4/5')) scoreIcon = '🎯';
-        //   else if (marks.includes('Average') || marks.includes('3/5')) scoreIcon = '⚡';
-        //   else if (marks.includes('Below') || marks.includes('Poor') || marks.includes('1/5') || marks.includes('2/5')) scoreIcon = '⚠️';
-        //   formattedResponse += `## ${scoreIcon} Performance Score\n**${parsedResponse.marks}**\n\n`;
+          let scoreIcon = '📊';
+          if (marks.includes('Excellent') || marks.includes('5/5')) scoreIcon = '🏆';
+          else if (marks.includes('Good') || marks.includes('4/5')) scoreIcon = '🎯';
+          else if (marks.includes('Average') || marks.includes('3/5')) scoreIcon = '⚡';
+          else if (marks.includes('Below') || marks.includes('Poor') || marks.includes('1/5') || marks.includes('2/5')) scoreIcon = '⚠️';
+          formattedResponse += `## ${scoreIcon} Performance Score\n**${parsedResponse.marks}**\n\n`;
         }
 
         if (parsedResponse.errors?.length) {
