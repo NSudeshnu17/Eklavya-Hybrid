@@ -26,3 +26,50 @@ voice-backend/models
 *.sln
 *.sw?
 voice-backend/models/
+
+# =========================
+# Python
+# =========================
+venv/
+voice-backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environment folders with different names
+.env/
+*.env
+
+# =========================
+# Node.js
+# =========================
+node_modules/
+voice-backend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Build / Output
+# =========================
+dist/
+build/
+.cache/
+.tmp/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
